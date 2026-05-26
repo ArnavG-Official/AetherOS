@@ -17,6 +17,15 @@ The goal is to create a unified system that includes:
 
 ---
 
+## ✨ Requirements
+
+Download with pip install <library>:
+- PySide6
+- openai
+- qtawesome
+
+---
+
 ## ✨ Design Goals
 
 - Modern and clean UI inspired by Windows 11 + macOS
@@ -37,6 +46,11 @@ To build a **fully interactive, OS-like experience** where users can:
 - Use a built-in browser
 - Switch between multiple workspaces/desktops
 - Interact with an AI system for commands and assistance
+- Voice-controlled system interaction
+- Plugin marketplace for apps
+- Cloud sync for desktops
+- AI-based file organization
+- Custom scripting language for automation
 
 ---
 
@@ -166,6 +180,26 @@ Example commands:
 
 ---
 
+## 🛠️ Recommended Tech Stack
+
+### Core Language
+- Python 3.10+
+
+### UI Framework
+- PySide6 (Qt)
+
+### System Utilities
+- pathlib, os, subprocess
+- sqlite3 or JSON for storage
+
+### Web Engine (Browser)
+- QtWebEngine
+
+### AI Integration
+- OpenAI API or local LLM
+
+---
+
 ## 🚧 Limitations
 
 This project does NOT include:
@@ -177,13 +211,23 @@ It relies entirely on the host operating system for low-level operations.
 
 ---
 
-## 🚀 Future Ideas
+## 📌 Project Philosophy
 
-- Voice-controlled system interaction
-- Plugin marketplace for apps
-- Cloud sync for desktops
-- AI-based file organization
-- Custom scripting language for automation
+> "Don’t rebuild the kernel — build the experience on top of it."
+
+This project focuses on creating a **next-generation desktop experience layer**, not replacing the operating system itself.
+
+---
+
+## 🧭 Getting Started (Conceptual)
+
+1. Set up Linux environment (recommended)
+2. Install Python 3.10+
+3. Install PySide6
+4. Build base desktop window
+5. Add taskbar + app launcher
+6. Expand into modular apps
+7. Integrate AI system layer
 
 ---
 
